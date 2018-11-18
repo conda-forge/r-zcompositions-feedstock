@@ -14,9 +14,9 @@ source:
   sha256: eb55f47852fcab57fb22beac5be7e860f6a1a6686b59c3c39f9f2111055f34a1
 
 build:
+  noarch: generic
   merge_build_host: True  # [win]
-  number: 0
-  skip: true  # [win32]
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -46,8 +46,7 @@ about:
   summary: Principled methods for the imputation of zeros, left-censored and missing data in
     compositional data sets.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
   recipe-maintainers:
