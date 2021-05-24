@@ -41,10 +41,11 @@ test:
 
 about:
   home: https://CRAN.R-project.org/package=zCompositions
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Principled methods for the imputation of zeros, left-censored and missing data in compositional data sets.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
