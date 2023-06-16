@@ -1,11 +1,11 @@
-About r-zcompositions
-=====================
+About r-zcompositions-feedstock
+===============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-zcompositions-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=zCompositions
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-zcompositions-feedstock/blob/main/LICENSE.txt)
 
 Summary: Principled methods for the imputation of zeros, left-censored and missing data in compositional data sets.
 
