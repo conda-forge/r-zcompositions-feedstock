@@ -1,4 +1,4 @@
-{% set version = "1.5.0-1" %}
+{% set version = "1.5.0-2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/zCompositions_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/zCompositions/zCompositions_{{ version }}.tar.gz
-  sha256: 48d23ad5e557750e9a3f7441ce93d8163113c7d77a7e1f65ed923c1f0788a66b
+  sha256: c0f40827bf8722602f5ff07599c7312e2fe81623f561d8fe896a9e0e0ea26c22
 
 build:
   merge_build_host: true  # [win]
