@@ -1,4 +1,4 @@
-{% set version = "1.5.0-4" %}
+{% set version = "1.5.0-5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/zCompositions_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/zCompositions/zCompositions_{{ version }}.tar.gz
-  sha256: 73188e1e065a042723ed7a48df04e22317b204222d40744b83e8c392aae16aaf
+  sha256: a5e71c878ae1c8141851a456fee5aaebc83a19654bb4aef9cf7b92ef6799981f
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
