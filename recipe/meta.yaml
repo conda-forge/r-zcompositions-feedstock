@@ -1,4 +1,4 @@
-{% set version = "1.6.1" %}
+{% set version = "1.6.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/zCompositions_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/zCompositions/zCompositions_{{ version }}.tar.gz
-  sha256: f500a062b72125722fa4cd279848c329fe5fe963ef263bbee53e231b976a9e89
+  sha256: 8f50ab81c4aa2ea8ff8c52678d14af456cdb0ee04b22a567a9f18722dc49d98a
 
 build:
   number: 0
